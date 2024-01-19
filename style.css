@@ -6,7 +6,7 @@
 }
 .hero {
     width: 100%;
-    min-height: 100vh;
+    min-height: 0vh;
     background-position: center;
     background-size: cover;
     padding: 10px 0;
@@ -25,9 +25,87 @@ nav ul li {
     list-style: none;
     margin: 10px 15px;
 }
-
+.Login {
+    padding-right: 100px;
+}
 nav ul li a{
     text-decoration: none;
     color: #333;
     font-weight: 400;
+}
+td img {
+    width: 36px;
+    height: 36px;
+    margin-right:.5rem;
+    border-radius:50%;
+
+    vertical-align: middle;
+}
+main {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+table, th, td {
+    padding: 1rem;
+}
+main.table{
+    width: 82vm;
+    height: 90vh;
+    background-color: #fff5;
+
+}
+body {
+    min-height: 100vh;
+    align-items: center;
+    overflow: hidden;
+}
+.table__header{
+    width: 100%;
+    height: 10%;
+    background-color: #fff4;
+    padding: .8rem 1rem;
+}
+.table__body{
+    width: 95%;
+    max-height: calc(89% - 8rem);
+    background-color: #fffb;
+    margin: .8rem auto;
+    border-radius: .6rem;
+
+    overflow: auto;
+}
+.table__body::-webkit-scrollbar-{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.table__body::-webkit-scrollbar-thumb{
+    background-color: #0004;
+    border-radius: .5rem;
+    visibility: hidden;
+}
+.table__body:hover::-webkit-scrollbar-thumb{
+    visibility: visible;
+}
+table {
+    width: 100%;
+}   
+thead th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color:#d5d1defe;
+    border-radius: 0.1rem;
+}
+tbody tr{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-align: center;
+}
+tbody tr:hover{
+    background-color: #0001;
+}
+.staus {
+    padding: .4rem 0;
+    border-radius: 2rem;
 }
